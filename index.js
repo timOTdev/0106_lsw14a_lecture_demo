@@ -1,10 +1,3 @@
-const express = require('express');
-const server = express();
-const port = 9000;
-
-server.use(express.json());
-
-server.route('/')
-  .get((req, res) => res.status(200).json({ Message: 'Good to go!' }))
+const server = required('./server.js')
 
 server.listen(port, () => console.log(`\n==Port ${port} is online==\n`))
