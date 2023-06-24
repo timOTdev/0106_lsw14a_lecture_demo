@@ -1,2 +1,3 @@
-# lsw14-day4Demo
+# 0106_lsw14a_lecture_demo
+
 Lambda School Week 14: Testing IV Lecture Demo
